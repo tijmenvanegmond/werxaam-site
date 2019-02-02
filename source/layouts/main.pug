@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='keywords', content='zorgboederij, lelystad')
+    link(rel='stylesheet', type='text/css', href='stylesheet.css')
+    title #{title}
+  body
+    .wrapper
+      nav.side
+        a.selected(href='./home.html') Home
+        a(href='./info.html') Info
+        a(href='./products.html') Verkoop
+        a(href='./contact.html') Contact
+      .container
+        block container
