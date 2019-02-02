@@ -14,7 +14,6 @@ fs.readdir(inputPath, (err, files) => {
     });
 })
 
-
 function renderPage(pageName) {
     let htmlRender = pug.renderFile(`${inputPath}${pageName}.pug`);
 
@@ -23,7 +22,7 @@ function renderPage(pageName) {
             return console.log(err);
         }
 
-        console.log(`The file was saved @${outputPath}${pageName}.html`);
+        console.log(`A file was saved @${outputPath}${pageName}.html`);
 
     })
 };
