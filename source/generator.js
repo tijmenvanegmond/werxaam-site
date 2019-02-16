@@ -1,11 +1,13 @@
 const pug = require('pug');
-//filesystem
 const fs = require('fs');
-const inputPath = "./pages/";
-const outputPath = "../output/";
-
+const setupData = JSON.parse(fs.readFileSync('setup-data.json', 'utf8'));
+const inputPath = setupData.inputPath;
+const outputPath = setupData.outputPath;
 
 fs.readdir(inputPath, (err, files) => {
+    if(files === undefined)    
+        throw(`Could not find any files in${inputPath}`);
+
     files.forEach(fileName => {
         if (fileName.includes(".pug")) {
             let name = fileName.replace(".pug","")
@@ -22,7 +24,7 @@ function renderPage(pageName) {
             return console.log(err);
         }
 
-        console.log(`A file was saved @${outputPath}${pageName}.html`);
+        console.log(`A file was saved in ${outputPath}${pageName}.html`);
 
     })
 };
