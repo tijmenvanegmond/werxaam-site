@@ -1,3 +1,4 @@
 node_modules
 
 source/setup-data.json
+.DS_Store

@@ -1,8 +1,8 @@
 const pug = require('pug');
 const fs = require('fs');
 const setupData = JSON.parse(fs.readFileSync('setup-data.json', 'utf8'));
-const inputPath = setupData.inputPath;
-const outputPath = setupData.outputPath;
+const inputPath = setupData.inputPath || "pages/";
+const outputPath = setupData.outputPath || "../output/";
 
 fs.readdir(inputPath, (err, files) => {
     if(files === undefined)    
