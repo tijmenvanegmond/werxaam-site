@@ -1,16 +1,17 @@
 doctype html
 html
   head
+    block options
     meta(charset='utf-8')
     meta(name='keywords', content='zorgboederij, lelystad')
     link(rel='stylesheet', type='text/css', href='../recources/stylesheet.css')
-    title #{title}
+    title Stichting Werxaam - #{title}
   body
     .wrapper
       nav.side
-        a.selected(href='./index.html') Home
-        a(href='./info.html') Info
-        a(href='./products.html') Verkoop
-        a(href='./contact.html') Contact
+        a(class={selected: name === 'index'} href='./index.html') Home
+        a(class={selected: name === 'info'} href='./info.html') Info
+        a(class={selected: name === 'products'} href='./products.html') Verkoop
+        a(class={selected: name === 'contact'} href='./contact.html') Contact
       .container
         block container

@@ -1,4 +1,6 @@
 extends ../layouts/main.pug
+block options
+    - var title = "Informatie";
 block container
     .content
         include:markdown-it info.md

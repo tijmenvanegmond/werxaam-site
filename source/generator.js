@@ -16,7 +16,10 @@ fs.readdir(inputPath, (err, files) => {
 });
 
 function renderPage(pageName) {
-    let htmlRender = pug.renderFile(`${inputPath}${pageName}.pug`);
+    let options = {
+        name: pageName
+    };
+    let htmlRender = pug.renderFile(`${inputPath}${pageName}.pug`, options);
 
     fs.writeFile(`${outputPath}${pageName}.html`, htmlRender, function(err) {
         if (err) {

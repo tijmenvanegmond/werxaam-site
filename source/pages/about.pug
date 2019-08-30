@@ -1,4 +1,6 @@
 extends ../layouts/main.pug
+block options
+    - var title = "Over werxaam";
 block container
     .content        
         include:markdown-it about.md
