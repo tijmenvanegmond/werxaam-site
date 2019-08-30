@@ -1,18 +1,18 @@
-html,body {
+html,
+body {
     color: #252525;
     background-color: #eeeeee;
     font-family: Helvetica, Arial, sans-serif;
-    margin: 0;    
+    margin: 0;
 }
 
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-areas: 
-    "nav container";
+    grid-template-areas: 'nav container';
 }
 
-nav{
+nav {
     z-index: 100;
     background-color: #252525;
     color: #eeeeee;
@@ -24,91 +24,90 @@ nav{
     position: relative;
 }
 
-.side > a{
+.side > a {
     padding: 1rem 4rem 1rem 1rem;
 }
 
-nav > a{
-    
+nav > a {
     font-size: 1.5rem;
     font-weight: 500;
     color: inherit;
     text-decoration: none;
 }
 
-nav > .selected{
+nav > .selected {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-nav > a:hover{
+nav > a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-nav > a:active{
+nav > a:active {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.container{
+.container {
     grid-area: container;
     overflow: auto;
-    height: 100vh;   
+    height: 100vh;
 }
 
-.cover-img{
+.cover-img {
     width: 100%;
     max-height: 60vh;
-    position: sticky; top: 0;
+    position: sticky;
+    top: 0;
     /* center img vertical */
     display: flex;
-    align-items:center;
+    align-items: center;
     overflow: hidden;
 }
 
-.cover-img > *{
+.cover-img > * {
     width: 100%;
 }
 
-.nav-horizontal{
+.nav-horizontal {
     flex-direction: row;
-    margin: .5rem;
+    margin: 0.5rem;
     height: auto;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.nav-horizontal > a{
+.nav-horizontal > a {
     padding: 1rem;
 }
 
-.content{
+.content {
     position: relative; /* so its inforn of sitcky cover-img */
-    margin: .5rem;
+    margin: 0.5rem;
     padding: 1rem;
     background-color: #fcfcfc;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-aspect-ratio: 4/3) {
-    .wrapper{
+    .wrapper {
         grid-template-columns: auto;
         grid-template-areas:
-        "container"
-        "nav";
+            'container'
+            'nav';
     }
-    .side{
+    .side {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         height: 7rem;
         overflow: hidden;
     }
-    .side > a{
+    .side > a {
         flex: 0;
         padding: 2rem;
         font-size: 3rem;
     }
-    .container{
+    .container {
         height: calc(100vh - 7rem);
     }
 }
-
