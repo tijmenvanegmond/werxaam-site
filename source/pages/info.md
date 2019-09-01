@@ -10,4 +10,4 @@ In de winterperiode wanneer er niets meer groeit zijn we vooral in het bos aan h
 
 ### De Groententuin
 
-De groententuin is er vooral voor eigen gebruik. Er staat een kas , zodat we ook tomaten en paprika's kunnen telen. Uit de groentetuin kunnen de deelnemers regelmatig verse groenten mee naar huis kunnen nemen.
+De groententuin is er vooral voor eigen gebruik. Er staat een kas, zodat we ook tomaten en paprika's kunnen telen. Uit de groentetuin kunnen de deelnemers regelmatig verse groenten mee naar huis kunnen nemen.
