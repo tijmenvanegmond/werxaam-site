@@ -103,6 +103,10 @@ nav > a:active {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.padder {
+    height: 20vh;
+}
+
 @media (max-aspect-ratio: 4/3) {
     .wrapper {
         grid-template-columns: auto;
