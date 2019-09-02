@@ -1,4 +1,5 @@
 {
     "inputPath": "./source/pages/",
+    "resourcePath": "./source/recources",
     "outputPath": "./docs/"
 }

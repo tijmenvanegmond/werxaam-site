@@ -6,5 +6,5 @@
     },
     "verbose": true,
     "watch": ["source/**", "_recources/**"],
-    "ext": "js md pug yml graphql json"
+    "ext": "js md css pug yml graphql json"
 }
