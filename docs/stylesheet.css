@@ -62,7 +62,6 @@ nav > a:active {
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin-bottom: -10vh;
 }
 
 .cover-img > * {
@@ -90,6 +89,7 @@ nav > a:active {
     height: auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-horizontal > a {
@@ -120,14 +120,25 @@ nav > a:active {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 7rem;
+        height: 5rem;
         overflow: hidden;
     }
     .side > a {
         flex: 0;
-        padding: 2rem;
-        font-size: 3rem;
+        padding: 1.5rem 1rem;
+        font-size: 2em;
     }
+
+    .nav-horizontal {
+        max-height: 4rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-horizontal > a {
+        padding: 1rem;
+        font-size: 1.5em;
+    }
+
     .container {
         height: calc(100vh - 7rem);
     }
