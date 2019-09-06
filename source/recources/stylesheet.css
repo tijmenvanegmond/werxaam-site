@@ -120,13 +120,13 @@ nav > a:active {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 5rem;
+        height: 6rem;
         overflow: hidden;
     }
     .side > a {
         flex: 0;
         padding: 1.5rem 1rem;
-        font-size: 2em;
+        font-size: 3rem;
     }
 
     .nav-horizontal {
