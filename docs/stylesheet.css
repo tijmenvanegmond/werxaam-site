@@ -50,7 +50,7 @@ nav > a:active {
 .container {
     grid-area: container;
     overflow: auto;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .cover-img {
@@ -96,7 +96,7 @@ nav > a:active {
 }
 
 .content {
-    position: relative; /* so its inforn of sitcky cover-img */
+    position: relative; /* so its infornt of sitcky cover-img */
     margin: 1rem;
     padding: 1rem;
     background-color: #fcfcfc;
