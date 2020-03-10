@@ -1,5 +1,15 @@
-## Over Ons
+## Over ons
 
-Stichting werXaam is een kleinschalig bedrijf gelegen in het biologisch landbouwgebied in Lelystad-Noord. We bieden een veilige werkplek voor mensen met een afstand tot de arbeidsmarkt. De meeste activiteiten die we verrichten vinden plaats in de openlucht. Daardoor is werXaam een plek, waar de gezondheid er alleen maar op vooruit kan gaan. We richten ons op de volgende activiteiten; Bosonderhoud en Onderhoud van tuinen. Iedereen helpt mee.
+WerXaam is een groen leer/werkbedrijf met 3 hoofdactiviteiten
 
-Op ons bedrijf kunnen de deelnemers verschillende ervaringen opdoen, die ze helpen om een plek te vinden in de arbeidsmarkt en/of maatschappij. Ben je geinterreseerd in een werkplek of wil je iets kopen.
+Het kappen van bomen in het bos en het verwerken van de stammen tot haardhout.
+ Hovenierswerxaamheden in diverse tuinen en plantsoenen.
+Begeleiding aan deelnemers met een afstand tot de arbeidsmarkt.
+ 
+Alle werxaamheden vinden plaats in de buitenlucht of in de ruime loods. Daardoor zijn deelnmers nauw betrokken bij weer en wind en de veranderingen van de seizoenen. Taken worden afgestemd op interesse en vaardigheden van de deelnemer. Daar waar mogelijk worden aanpassingen getroffen. Voor de koffie,thee en lunch is er een aangename verblijfsruimte.
+
+Werxaam biedt deelnemers de mogelijkheid om ontwikkelingsgericht deel te nemen aan het agrarisch werkproces en het buitenleven. De begeleiding is gericht op het ondersteunen en ontwikkelen van arbeidsvaardigheden. Door de directe betrokkenheid bij de bedrijfsactiviteiten, de natuurlijke omgeving en samenwerking met collega’s kan je hier een prettige werkplek vinden.
+
+### Aanmelding 
+Mensen met een beschikking kunnen 2 of meerdere dagdelen per week bij werXaam komen werken. 
+Geïnteresseerden kunnen vrijblijvend contact opnemen voor een bezoek of informatie met Jos van Egmond.
