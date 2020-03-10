@@ -23,4 +23,3 @@ Email : [jos@werxaam.nl](mailto:jos@werxaam.nl)
 | Vrijdag   | 09:00 - 16:00 |
 | Weekend   | Gesloten      |
 
-Voor Ciderverkoop zijn er geen vaste tijden.

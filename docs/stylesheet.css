@@ -55,7 +55,7 @@ nav > a:active {
 
 .cover-img {
     width: 100%;
-    max-height: 60vh;
+    max-height: 75vh;
     position: sticky;
     top: 0;
     /* center img vertical */
@@ -70,7 +70,7 @@ nav > a:active {
 
 .middle-img {
     width: 100%;
-    max-height: 60vh;
+    max-height: 30vh;
     position: relative;
     top: 0;
     /* center img vertical */
@@ -81,6 +81,9 @@ nav > a:active {
 
 .middle-img > * {
     width: 100%;
+    margin: 1rem;
+    background-color: #fcfcfc;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-horizontal {

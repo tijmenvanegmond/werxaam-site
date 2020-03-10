@@ -2,9 +2,11 @@ extends ../layouts/main.pug
 block options
     - var title = "Informatie";
 block container
+    .cover-img
+        img(src='./images/bos-01.jpeg' loading='lazy')
     .content
         include:markdown-it info.md
     .middle-img
-        img(src='./images/moterzaag-bos-2-edit.jpg' loading='lazy')
+        img(src='./images/bos-clubcar.jpeg' loading='lazy')
     .content
         include:markdown-it info-socialactivering.md
