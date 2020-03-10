@@ -4,7 +4,7 @@ Vaak zijn wij wel aanwezig, je kunt het altijd proberen maar wil je het zeker we
 
 Voor een afspraak of vragen kunt u contact opnemen met Jos van Egmond
 
-### Adress
+### Adres
 
 Stichting werXaam  
 Jupiterweg 4  

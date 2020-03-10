@@ -1,9 +1,10 @@
 ## Openhaard hout
 
-### voor €75 per m^3^ 
-Dit hout komt uit de bossen uit de omgeving. We zagen alles zelf. Het is middenklasse hout vooral essen maar ook esdoorn, haagbeuk en eiken. De samenstelling kan per jaar verschillen, echter **nooit** waaibomenhout als wilg en popelier. Het hout hakken wordt nog hoofdzakelijk met de bijl gedaan. Proefondervindelijk hebben we vastgesteld dat door een goede techniek van hakken, de machine niet zoveel sneller is.
+### voor maar €75 kuub! 
 
-### gratis bezorgd in Lelystad!
+Wij verkopen ook openhaard houdt voor maar €75 per m^3^. Dit hout komt uit de bossen uit de omgeving. We zagen alles zelf. Het is middenklasse hout vooral essen maar ook esdoorn, haagbeuk en eiken. De samenstelling kan per jaar verschillen, echter **nooit** waaibomenhout als wilg en popelier. Het hout hakken wordt nog hoofdzakelijk met de bijl gedaan. Proefondervindelijk hebben we vastgesteld dat door een goede techniek van hakken, de machine niet zoveel sneller is.
+
+### vanaf 2m^3^ gratis bezorgd in Lelystad!
 
 ## Tuinstoelen
 
