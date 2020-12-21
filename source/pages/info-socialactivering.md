@@ -16,7 +16,7 @@ We streven naar een minimale aanwezigheid van 4 dagdelen per week, omdat wij het
 
 Deelnemers die potentieel hebben kunnen doorgroeien naar Sociale Activering eXtra
 
-## Sociale Activering eXtra (Arbeidsrehabilitatie.)
+## Sociale Activering eXtra (Arbeidsrehabilitatie)
 
 Voor deelnemers die potentieel hebben, maar om een of andere reden dat niet hebben kunnen benutten.
 

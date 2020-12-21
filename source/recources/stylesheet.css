@@ -12,21 +12,8 @@ body {
     grid-template-areas: 'nav container';
 }
 
-nav {
-    z-index: 100;
-    background-color: #c7c7c7;
-    color: #141414;
-    grid-area: nav;
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    position: relative;
-}
-
 .logo img {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem;
     height: 5rem;
     width: auto;
 }
@@ -35,9 +22,21 @@ nav {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-
 .side > a {
     padding: 1rem 4rem 1rem 1rem;
+}
+
+nav {
+    height: 100vh;
+    width: 16rem;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #141414;
+    background-color: #c7c7c7;
+    z-index: 100;
 }
 
 nav > a {
@@ -91,7 +90,6 @@ nav > a:active {
     align-items: center;
     background-color: #fcfcfc;
     overflow: hidden;
-    
 }
 
 .middle-img > * {
@@ -125,37 +123,29 @@ nav > a:active {
 }
 
 @media (max-aspect-ratio: 4/3) {
-    .wrapper {
-        grid-template-columns: auto;
-        grid-template-areas: 'container';
-    }
     .side {
-        position: fixed;
-        width: 100vw;
-        bottom: 0;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: 6rem;
-        overflow: hidden;
+        display: none;
     }
-    .side > a {
-        flex: 0;
-        padding: 1.5rem 1rem;
-        font-size: 3rem;
-    }
+}
 
-    .nav-horizontal {
-        max-height: 4rem;
-        flex-wrap: wrap;
-    }
+.toggle {
+    width: 1rem;
+    padding: 1rem 1rem;
+    position: fixed;
+    bottom: 2rem;
+    z-index: 1000;
+    font: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #141414;
+    background-color: #c7c7c7;
+}
 
-    .nav-horizontal > a {
-        padding: 1rem;
-        font-size: 1.5em;
-    }
+.toggle:hover {
+    background-color: #dddddd;
+}
 
-    .container {
-        height: calc(100vh - 7rem);
-    }
+.toggle:active {
+    background-color: #ffffff;
 }
