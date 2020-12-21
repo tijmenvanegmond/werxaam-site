@@ -34,7 +34,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    color: #141414;
+    color: #252525;
     background-color: #c7c7c7;
     z-index: 100;
 }
@@ -47,15 +47,15 @@ nav > a {
 }
 
 nav > .selected {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 nav > a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav > a:active {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -129,23 +129,13 @@ nav > a:active {
 }
 
 .toggle {
-    width: 1rem;
-    padding: 1rem 1rem;
+    padding: .8rem;
     position: fixed;
     bottom: 2rem;
     z-index: 1000;
-    font: 3rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    color: #141414;
     background-color: #c7c7c7;
 }
 
 .toggle:hover {
     background-color: #dddddd;
-}
-
-.toggle:active {
-    background-color: #ffffff;
 }

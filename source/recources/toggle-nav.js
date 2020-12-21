@@ -11,14 +11,17 @@ function toggleNav() {
 function updateToggle() {
     let toggler = document.getElementById('toggler');
     let nav = document.getElementById('nav');
+    let aLeft = document.getElementById('nav-arrow-left');
+    let aRight = document.getElementById('nav-arrow-right');
 
     if (isCollapsed(nav)) {
         toggler.style.left = '0';
-        toggler.innerText = ">"
+        aLeft.style.display = 'none';
+        aRight.style.display = 'block';
     } else {
-        console.log(nav.style.width);
         toggler.style.left = '16rem';
-        toggler.innerText = "<"
+        aLeft.style.display = 'block';
+        aRight.style.display = 'none';
     }
 }
 

@@ -10,7 +10,9 @@ html
      
   body   
     .wrapper
-      .button(class="toggle" id="toggler" onclick="toggleNav()") >
+      .button(class="toggle" id="toggler" onclick="toggleNav()")
+        img(id='nav-arrow-left' src="./arrow-left.svg" height=48 width=48)
+        img(id='nav-arrow-right' src="./arrow-right.svg" height=48 width=48)
       nav.side( id = "nav")
         .logo
           a(class={selected: name === 'index'} href='./index.html')
