@@ -9,8 +9,12 @@ html
   body
     .wrapper
       nav.side
-        a(class={selected: name === 'index'} href='./index.html') Home
-        a(class={selected: name === 'info'} href='./info.html') Info
+        .logo       
+          a(class={selected: name === 'index'} href='./index.html')
+            img(src='./Logo2020.png' loading='lazy')
+        
+        a(class={selected: name === 'dagbesteding'} href='./dagbesteding.html') Dagbesteding
+        a(class={selected: name === 'onderhoud'} href='./onderhoud.html') Onderhoud
         a(class={selected: name === 'products'} href='./products.html') Verkoop
         a(class={selected: name === 'contact'} href='./contact.html') Contact
       .container
