@@ -1,8 +1,10 @@
 ## Openhaard hout
 
-### €80 per kuub!
+# Helaas zijn we door onze voorraad hout heen voor dit jaar, onze excuses voor het ongemak.
 
-Wij verkopen ook openhaard hout voor €80 per m^3^. Dit hout komt uit de bossen uit de omgeving. We zagen alles zelf. Het is middenklasse hout vooral beukenhout maar ook essen, esdoorn, haagbeuk en eiken. De samenstelling kan per jaar verschillen, echter **nooit** waaibomenhout als wilg en popelier. Het hout hakken wordt nog hoofdzakelijk met de bijl gedaan. Proefondervindelijk hebben we vastgesteld dat door een goede techniek van hakken, de machine niet zoveel sneller is.
+### €85 per kuub!
+
+Wij verkopen ook openhaard hout voor €85 per m^3^. Dit hout komt uit de bossen uit de omgeving. We zagen alles zelf. Het is middenklasse hout vooral beukenhout maar ook essen, esdoorn, haagbeuk en eiken. De samenstelling kan per jaar verschillen, echter **nooit** waaibomenhout als wilg en popelier. Het hout hakken wordt nog hoofdzakelijk met de bijl gedaan. Proefondervindelijk hebben we vastgesteld dat door een goede techniek van hakken, de machine niet zoveel sneller is.
 
 ### vanaf 2m^3^ gratis bezorgd in Lelystad!
 
