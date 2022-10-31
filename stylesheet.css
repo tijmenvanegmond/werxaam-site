@@ -1,0 +1,141 @@
+html,
+body {
+    color: #252525;
+    background-color: #eeeeee;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 'nav container';
+}
+
+.logo img {
+    padding: 1rem 1rem;
+    height: 5rem;
+    width: auto;
+}
+
+.logo:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.side > a {
+    padding: 1rem 4rem 1rem 1rem;
+}
+
+nav {
+    height: 100vh;
+    width: 16rem;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #252525;
+    background-color: #c7c7c7;
+    z-index: 100;
+}
+
+nav > a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+}
+
+nav > .selected {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav > a:active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    grid-area: container;
+    overflow: auto;
+    height: 100vh;
+}
+
+.cover-img {
+    width: 100%;
+    max-height: 75vh;
+    position: sticky;
+    top: 0;
+    /* center img vertical */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cover-img > * {
+    width: 100%;
+}
+
+.middle-img {
+    width: 100% -2rem;
+    max-height: 50vh;
+    position: relative;
+    margin: 1rem;
+    top: 0;
+    /* center img vertical */
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+
+.middle-img > * {
+    width: 100%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-horizontal {
+    flex-direction: row;
+    margin: 1rem;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-horizontal > a {
+    padding: 1rem;
+}
+
+.content {
+    position: relative; /* so its infornt of sitcky cover-img */
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fcfcfc;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.padder {
+    height: 30vh;
+}
+
+@media (max-aspect-ratio: 4/3) {
+    .side {
+        display: none;
+    }
+}
+
+.toggle {
+    padding: .8rem;
+    position: fixed;
+    bottom: 2rem;
+    z-index: 1000;
+    background-color: #c7c7c7;
+}
+
+.toggle:hover {
+    background-color: #dddddd;
+}
