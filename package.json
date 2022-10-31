@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/tijmenvanegmond/Werxaam-site#readme",
     "dependencies": {
-        "jstransformer-markdown-it": "^2.1.0",
+        "jstransformer-markdown-it": "^3.0.0",
         "markdown-it-sup": "^1.0.0",
         "ncp": "^2.0.0",
         "nodemon": "^2.0.19",
