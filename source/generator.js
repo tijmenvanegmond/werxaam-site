@@ -14,6 +14,12 @@ ncp(resourcePath, outputPath, { clobber: true }, err => {
     console.log('done!');
 });
 
+if (!fs.existsSync(outputPath)){
+    console.log(`${outputPath} directory doesn't exists, creating it`)
+    fs.mkdirSync(outputPath);
+}
+
+
 fs.readdir(inputPath, (err, files) => {
     if (files === undefined) throw `Could not find any files in${inputPath}`;
 
