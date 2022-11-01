@@ -6,6 +6,11 @@ const inputPath = setupData.inputPath || './source/pages/';
 const resourcePath = setupData.recourcePath || './source/recources/';
 const outputPath = setupData.outputPath || './output/';
 
+if (!fs.existsSync(outputPath)){
+    console.log(`${outputPath} directory doesn't exists, creating it`)
+    fs.mkdirSync(outputPath);
+}
+
 ncp.limit = 16;
 ncp(resourcePath, outputPath, { clobber: true }, err => {
     if (err) {
@@ -13,12 +18,6 @@ ncp(resourcePath, outputPath, { clobber: true }, err => {
     }
     console.log('done!');
 });
-
-if (!fs.existsSync(outputPath)){
-    console.log(`${outputPath} directory doesn't exists, creating it`)
-    fs.mkdirSync(outputPath);
-}
-
 
 fs.readdir(inputPath, (err, files) => {
     if (files === undefined) throw `Could not find any files in${inputPath}`;
