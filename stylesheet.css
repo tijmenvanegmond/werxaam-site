@@ -131,7 +131,7 @@ nav > a:active {
 .toggle {
     padding: .8rem;
     position: fixed;
-    bottom: 2rem;
+    bottom: 2em;
     z-index: 1000;
     background-color: #c7c7c7;
 }
