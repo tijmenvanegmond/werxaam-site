@@ -11,17 +11,11 @@ function toggleNav() {
 function updateToggle() {
     let toggler = document.getElementById('toggler');
     let nav = document.getElementById('nav');
-    let aLeft = document.getElementById('nav-arrow-left');
-    let aRight = document.getElementById('nav-arrow-right');
 
     if (isCollapsed(nav)) {
         toggler.style.left = '0';
-        aLeft.style.display = 'none';
-        aRight.style.display = 'block';
     } else {
         toggler.style.left = '16rem';
-        aLeft.style.display = 'block';
-        aRight.style.display = 'none';
     }
 }
 
