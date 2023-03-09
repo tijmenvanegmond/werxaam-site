@@ -15,7 +15,8 @@ function updateToggle() {
     if (isCollapsed(nav)) {
         toggler.style.left = '0';
     } else {
-        toggler.style.left = '16rem';
+        //offset toggle with the width of the nav
+        toggler.style.left = nav.offsetWidth.toString()+'px';
     }
 }
 
