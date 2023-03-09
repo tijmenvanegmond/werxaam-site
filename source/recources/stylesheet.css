@@ -3,7 +3,8 @@ body {
     color: #252525;
     background-color: #eeeeee;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
+    line-height: normal;
     margin: 0;
 }
 
@@ -31,7 +32,7 @@ nav {
     height: 100vh;
     width: 16rem;
     grid-area: nav;
-    font-size: 20px;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,24 +124,27 @@ nav > a:active {
     height: 30vh;
 }
 
-@media (max-aspect-ratio: 4/3) {
-    .side {
-        display: none;
-    }
-}
-
 .toggle {
     padding: .8rem;
-    height: 48px;
+    height: 32px;
     position: fixed;
     top: 2em;
     z-index: 1000;
     background-color: #c7c7c7;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    
 }
 
 .toggle:hover {
     background-color: #dddddd;
+}
+
+@media (max-aspect-ratio: 4/3) {
+    .side {
+        display: none; 
+    }
+
+    .toggle {
+        height: 64px;
+    }
 }
