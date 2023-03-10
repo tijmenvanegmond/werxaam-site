@@ -1,26 +1,27 @@
 doctype html
-html
+html(lang='nl')
   head
     meta(charset='utf-8')
     meta(name='keywords', content='zorgboederij, lelystad, hout, openhaardhout, dagbesteding, tuinonderhoud')
-    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+    meta(name='description', content='WerXaam is een groen leer/werkbedrijf met 3 hoofdactiviteiten; Het kappen van bomen in het bos en het verwerken van de stammen tot haardhout. Hovenierswerxaamheden in diverse tuinen en plantsoenen. Begeleiding aan deelnemers met een afstand tot de arbeidsmarkt.')    
+    meta(name='viewport' content='width=device-width, initial-scale=1')
     link(rel='stylesheet', type='text/css', href='./stylesheet.css')
-    link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
-    link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
-    link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
-    link(rel="manifest" href="/site.webmanifest")
+    link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
+    link(rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png')
+    link(rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png')
+    link(rel='manifest' href='/site.webmanifest')
     block options
     title Stichting Werxaam - #{title}
-    script(src="./toggle-nav.js")
+    script(src='./toggle-nav.js')
      
   body   
     .wrapper
-      .button(class="toggle" id="toggler" onclick="toggleNav()")
-        img(id='nav-menu-button' src="./menu-icon.svg" height="100%" viewBox="0 0 400 400")
+      .button(class='toggle' id='toggler' onclick='toggleNav()' alt='hamburger menu button')
+        img(id='nav-menu-button' src='./menu-icon.svg' height='100%' viewBox='0 0 400 400')
         
-      nav.side( id = "nav")
+      nav.side( id = 'nav')
         .logo
-          a(class={selected: name === 'index'} href='./index.html')
+          a(class={selected: name === 'index'} href='./index.html' alt='homepage')
             img(src='./Logo2020.png' loading='lazy')        
         a(class={selected: name === 'dagbesteding'} href='./dagbesteding.html') Dagbesteding
         a(class={selected: name === 'onderhoud'} href='./onderhoud.html') Onderhoud
