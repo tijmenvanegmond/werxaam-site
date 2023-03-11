@@ -18,9 +18,9 @@ html(lang='nl')
     .wrapper
       .button(id='toggler' onclick='toggleNav()' alt='hamburger menu button')
         img(id='menu-icon' src='./menu-icon.svg' height='100%' viewBox='0 0 512 512')
-        img(id='close-icon' src='./close-icon.svg' height='100%' viewBox='0 0 512 512')
+        img(id='close-icon' src='./close-icon.svg' height='100%' viewBox='0 0 512 512' style='display:none')
         
-      nav.side( id = 'nav')
+      nav.side(id='nav')
         .logo
           a(class={selected: name === 'index'} href='./index.html' alt='homepage')
             img(src='./Logo2020.png' loading='lazy')        
