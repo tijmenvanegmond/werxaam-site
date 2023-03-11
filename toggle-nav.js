@@ -1,4 +1,5 @@
 window.onload = updateToggle;
+addEventListener("resize", updateToggle);
 
 function toggleNav() {
     let nav = document.getElementById('nav');
