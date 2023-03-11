@@ -2,21 +2,25 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="310"
-   height="259.34375"
+   width="251.3364"
+   height="250.00005"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="close-icon.svg"
+   inkscape:export-filename="close-icon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   viewBox="0 0 251.3364 250.00005"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
-     id="title3842">Hamburger (Menu) Icon</title>
+     id="title3842">Hamburger  Menu Icon</title>
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -31,7 +35,7 @@
      inkscape:cy="473.54108"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showborder="true"
      inkscape:showpageshadow="false"
      fit-margin-top="5"
@@ -42,7 +46,15 @@
      inkscape:window-height="882"
      inkscape:window-x="208"
      inkscape:window-y="58"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid294"
+       spacingx="32"
+       spacingy="32" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,24 +63,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Hamburger (Menu) Icon</dc:title>
-        <dc:date>2015-06-29</dc:date>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Daniel Fowler</dc:title>
-          </cc:Agent>
-        </dc:creator>
+        <dc:title>Hamburger Menu Icon</dc:title>
         <dc:rights>
           <cc:Agent>
             <dc:title>Public Domain</dc:title>
           </cc:Agent>
         </dc:rights>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title>openclipart.org</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:language>en-GB</dc:language>
         <dc:subject>
           <rdf:Bag>
             <rdf:li>icon</rdf:li>
@@ -89,16 +89,10 @@
           </rdf:Bag>
         </dc:subject>
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
-        <dc:description>A simple and basic hamburger (menu) icon. It originates from Xerox &quot;Star&quot; workstations of the 1980's but is now popular to hide/show menus on mobile devices.</dc:description>
-        <dc:contributor>
-          <cc:Agent>
-            <dc:title>Norm Cox</dc:title>
-          </cc:Agent>
-        </dc:contributor>
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
         <cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" />
         <cc:permits
@@ -112,24 +106,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(10.015625,-803.03125)">
+     transform="translate(7.6838245,-806.03125)">
     <g
        id="g3837">
       <path
          inkscape:connector-curvature="0"
-         id="path3785-0"
-         d="m 19.668179,1032.694 250.646101,0 0,0"
-         style="fill:none;stroke:#000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
          id="path3785-0-9"
-         d="m 19.668179,932.694 250.646101,0 0,0"
-         style="fill:none;stroke:#000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         d="M 21.984375,931.03125 H 213.98437"
+         style="fill:none;stroke:#000000;stroke-width:49.3364;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
       <path
-         inkscape:connector-curvature="0"
-         id="path3785-0-4"
-         d="m 19.668179,832.694 250.646101,0 0,0"
-         style="fill:none;stroke:#000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:#000000;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 21.984375,1027.0313 H 211.36546 Z M 213.98437,835.03125 H 21.984375 Z"
+         id="path426"
+         sodipodi:nodetypes="sssccc" />
     </g>
   </g>
 </svg>
