@@ -123,27 +123,24 @@ nav > a:active {
     height: 30vh;
 }
 
-.toggle {
+#toggler {
     padding: .8rem;
     height: 24px;
     position: fixed;
     top: 2em;
-    z-index: 1000;
+    z-index: 99;
     background-color: #c7c7c7;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.toggle:hover {
+#toggler:hover {
     background-color: #dddddd;
 }
 
 @media (max-aspect-ratio: 4/3) {
     .side {
         display: none; 
-    }
-
-    .toggle {
-        height: 32px;
     }
 }

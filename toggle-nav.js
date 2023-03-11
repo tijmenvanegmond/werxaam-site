@@ -9,14 +9,21 @@ function toggleNav() {
 }
 
 function updateToggle() {
-    let toggler = document.getElementById('toggler');
     let nav = document.getElementById('nav');
-
+    let toggler = document.getElementById('toggler');
+    let burger = toggler.firstChild;    
+    let cross = toggler.lastChild;
+    
+   
     if (isCollapsed(nav)) {
         toggler.style.left = '0';
+        cross.style.display = 'none';
+        burger.style.display = 'block';
     } else {
         //offset toggle with the width of the nav
-        toggler.style.left = nav.offsetWidth.toString()+'px';
+        toggler.style.left = (nav.offsetWidth-1).toString() +'px';
+        cross.style.display = 'block';
+        burger.style.display = 'none';
     }
 }
 
