@@ -6,12 +6,11 @@
     "description": "A static pug.js site generator for the werxaam website",
     "main": "./source/generator.js",
     "devDependencies": {
-        "nodemon": "^2.0.20"
+        "nodemon": "^3.1.7"
     },
     "scripts": {
         "watch": "nodemon build",
-        "build": "node ./source/generator.js",
-        "test": "test"
+        "build": "node ./source/generator.js"
     },
     "repository": {
         "type": "git",

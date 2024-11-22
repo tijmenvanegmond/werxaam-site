@@ -5,10 +5,6 @@ block container
     .cover-img
         img(src='./images/jongens-front-crop.jpeg' loading='lazy')
     .content
-        h2 Openhaard hout voor €160 per kuub
-        h3 vanaf 2 kuub gratis bezorgd in Lelystad!
-        span 
-            | meer informatie vindt u 
-            a(href='./products.html') hier.
+        include:markdown-it houtverkoop.md
     .content
         include:markdown-it dagbesteding-snippet.md

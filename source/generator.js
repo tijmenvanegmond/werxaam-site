@@ -1,46 +1,43 @@
 const pug = require('pug');
 const fs = require('fs');
 const ncp = require('ncp').ncp;
-const setupData = JSON.parse(fs.readFileSync('setup-data.json', 'utf8'));
-const inputPath = setupData.inputPath || './source/pages/';
-const resourcePath = setupData.recourcePath || './source/recources/';
-const outputPath = setupData.outputPath || './output/';
+const config = {
+    "inputPath": "./source/pages/",
+    "resourcePath": "./source/recources",
+    "outputPath": "./docs/"
+}
 
-if (!fs.existsSync(outputPath)){
-    console.log(`${outputPath} directory doesn't exists, creating it`)
-    fs.mkdirSync(outputPath);
+if (!fs.existsSync(config.outputPath)){
+    console.log(`${config.outputPath} directory doesn't exists, creating it`)
+    fs.mkdirSync(config.outputPath);
 }
 
 ncp.limit = 16;
-ncp(resourcePath, outputPath, { clobber: true }, err => {
+ncp(config.resourcePath, config.outputPath, { clobber: true }, err => {
     if (err) {
         return console.error(err);
     }
-    console.log('done!');
+    console.log('Done copying resources !');
 });
 
-fs.readdir(inputPath, (err, files) => {
-    if (files === undefined) throw `Could not find any files in${inputPath}`;
+fs.readdir(config.inputPath, (err, files) => {
+    if (files === undefined) throw `Could not find any files in${config.inputPath}`;
 
     files.forEach(fileName => {
         if (fileName.includes('.pug')) {
             let name = fileName.replace('.pug', '');
-            renderPage(name);
+            let options = {
+                name
+            };
+            let htmlRender = pug.renderFile(config.inputPath + name + '.pug', options);
+        
+            fs.writeFile(config.outputPath + name + '.html', htmlRender, err => {
+                if (err) {
+                    return console.log(err);
+                }
+        
+                console.log(`A file was saved in ${config.outputPath + name}.html`);
+            });
         }
     });
 });
-
-function renderPage(pageName) {
-    let options = {
-        name: pageName
-    };
-    let htmlRender = pug.renderFile(inputPath + pageName + '.pug', options);
-
-    fs.writeFile(outputPath + pageName + '.html', htmlRender, err => {
-        if (err) {
-            return console.log(err);
-        }
-
-        console.log(`A file was saved in ${outputPath + pageName}.html`);
-    });
-}
