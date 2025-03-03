@@ -5,11 +5,22 @@
     "version": "0.8.1",
     "description": "A static pug.js site generator for the werxaam website",
     "main": "./source/generator.js",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
     "scripts": {
         "watch": "nodemon build",
-        "build": "node ./source/generator.js",
-        "test": "test"
+        "build": "node ./source/generator.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tijmenvanegmond/Werxaam-site.git"
+    },
+    "keywords": [
+        "pug",
+        "static",
+        "site"
+    ],
     "author": "Tijmen van Egmond",
 
     "homepage": "https://github.com/tijmenvanegmond/Werxaam-site#readme",

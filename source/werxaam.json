@@ -1,0 +1,44 @@
+{
+  "navigation": [
+    {
+      "title": "Home",
+      "url": "https://werxaam.nl/index.html"
+    },
+    {
+      "title": "Dagbesteding",
+      "url": "https://werxaam.nl/dagbesteding.html"
+    },
+    {
+      "title": "Onderhoud",
+      "url": "https://werxaam.nl/onderhoud.html"
+    },
+    {
+      "title": "Verkoop",
+      "url": "https://werxaam.nl/products.html"
+    },
+    {
+      "title": "Contact",
+      "url": "https://werxaam.nl/contact.html"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "zorgboederij",
+      "groenbedrijf",
+      "lelystad",
+      "hout",
+      "openhaardhout",
+      "firewood",
+      "bomen",
+      "houtklover",
+      "dagbesteding",
+      "tuinonderhoud"
+    ]
+  },
+  "body":
+  {
+    "title": "Home",
+    "type": "html",
+    "url": "/werxaam.nl/index"
+  }
+}

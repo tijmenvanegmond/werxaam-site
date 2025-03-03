@@ -3,22 +3,13 @@ block options
     - var title = "Dagbesteding in het groen";
 block container
     .cover-img
-        img(src='./images/jongens-front.jpeg' loading='lazy')
+        img(src='./images/jongens-front-crop.jpeg' loading='lazy')
     .content
-        h2 Openhaard hout voor €160 per (gestapelde) kuub
-        h3 vanaf 2 kuub gratis bezorgd in Lelystad!
-        span 
-            | meer informatie vindt u 
-            a(href='./products.html') hier.
+        include:markdown-it houtverkoop.md
     .content
-        include:markdown-it about.md
-    .content
-        h2 Interesse?
-        span 
-            | Neem dan 
-            a(href='./contact.html') contact
-            |  op met Jos van Egmond.
+        include:markdown-it dagbesteding-snippet.md
         
 
     
         
+   
