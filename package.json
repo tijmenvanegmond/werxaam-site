@@ -2,36 +2,24 @@
     "requires": true,
     "lockfileVersion": 1,
     "name": "site-werxaam",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A static pug.js site generator for the werxaam website",
     "main": "./source/generator.js",
-    "devDependencies": {
-        "nodemon": "^2.0.20"
-    },
     "scripts": {
         "watch": "nodemon build",
         "build": "node ./source/generator.js",
         "test": "test"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/tijmenvanegmond/Werxaam-site.git"
-    },
-    "keywords": [
-        "pug",
-        "static",
-        "site"
-    ],
     "author": "Tijmen van Egmond",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/tijmenvanegmond/Werxaam-site/issues"
-    },
+
     "homepage": "https://github.com/tijmenvanegmond/Werxaam-site#readme",
     "dependencies": {
         "jstransformer-markdown-it": "^3.0",
         "markdown-it-sup": "^1.0.0",
         "ncp": "^2.0.0",
         "pug": "^3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
     }
 }

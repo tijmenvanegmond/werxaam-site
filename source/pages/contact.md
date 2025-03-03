@@ -12,7 +12,7 @@ Jupiterweg 4
 Tel : 06-41259339  
 Email : [jos@werxaam.nl](mailto:jos@werxaam.nl)
 
-## Openingstijden
+### Openingstijden
 
 |           |               |
 | --------- | ------------- |
