@@ -1,4 +1,4 @@
-# Openhaard hout €160 per kuub
+# Openhaard hout €165 per kuub
 ## vanaf 2 kuub gratis bezorgd in Lelystad!
 
 We kunnen er niet meer onderuit ook wij moeten onze prijs aanpassen. Alle hout dat dit jaar geleverd wordt, kost €160/m3.
