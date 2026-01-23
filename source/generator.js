@@ -7,6 +7,9 @@ const config = {
     "outputPath": "./docs/"
 }
 
+// Load werxaam.json for site configuration including pricing
+const werxaamConfig = JSON.parse(fs.readFileSync('./source/werxaam.json', 'utf8'));
+
 if (!fs.existsSync(config.outputPath)){
     console.log(`${config.outputPath} directory doesn't exists, creating it`)
     fs.mkdirSync(config.outputPath);
@@ -27,7 +30,8 @@ fs.readdir(config.inputPath, (err, files) => {
         if (fileName.includes('.pug')) {
             let name = fileName.replace('.pug', '');
             let options = {
-                name
+                name,
+                pricing: werxaamConfig.pricing
             };
             let htmlRender = pug.renderFile(config.inputPath + name + '.pug', options);
         
