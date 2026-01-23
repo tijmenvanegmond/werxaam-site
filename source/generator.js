@@ -8,7 +8,18 @@ const config = {
 }
 
 // Load werxaam.json for site configuration including pricing
-const werxaamConfig = JSON.parse(fs.readFileSync('./source/werxaam.json', 'utf8'));
+let werxaamConfig;
+try {
+    werxaamConfig = JSON.parse(fs.readFileSync('./source/werxaam.json', 'utf8'));
+    if (!werxaamConfig.pricing) {
+        console.warn('Warning: No pricing configuration found in werxaam.json, using defaults');
+        werxaamConfig.pricing = { houtKuubPrice: 165, houtStapelenPrice: 20 };
+    }
+} catch (error) {
+    console.error('Error loading werxaam.json:', error.message);
+    console.warn('Using default pricing values');
+    werxaamConfig = { pricing: { houtKuubPrice: 165, houtStapelenPrice: 20 } };
+}
 
 if (!fs.existsSync(config.outputPath)){
     console.log(`${config.outputPath} directory doesn't exists, creating it`)
