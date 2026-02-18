@@ -35,6 +35,10 @@
       "tuinonderhoud"
     ]
   },
+  "pricing": {
+    "houtKuubPrice": 165,
+    "houtStapelenPrice": 20
+  },
   "body":
   {
     "title": "Home",

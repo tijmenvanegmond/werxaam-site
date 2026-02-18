@@ -7,6 +7,20 @@ const config = {
     "outputPath": "./docs/"
 }
 
+// Load werxaam.json for site configuration including pricing
+let werxaamConfig;
+try {
+    werxaamConfig = JSON.parse(fs.readFileSync('./source/werxaam.json', 'utf8'));
+    if (!werxaamConfig.pricing) {
+        console.warn('Warning: No pricing configuration found in werxaam.json, using defaults');
+        werxaamConfig.pricing = { houtKuubPrice: 165, houtStapelenPrice: 20 };
+    }
+} catch (error) {
+    console.error('Error loading werxaam.json:', error.message);
+    console.warn('Using default pricing values');
+    werxaamConfig = { pricing: { houtKuubPrice: 165, houtStapelenPrice: 20 } };
+}
+
 if (!fs.existsSync(config.outputPath)){
     console.log(`${config.outputPath} directory doesn't exists, creating it`)
     fs.mkdirSync(config.outputPath);
@@ -27,7 +41,8 @@ fs.readdir(config.inputPath, (err, files) => {
         if (fileName.includes('.pug')) {
             let name = fileName.replace('.pug', '');
             let options = {
-                name
+                name,
+                pricing: werxaamConfig.pricing
             };
             let htmlRender = pug.renderFile(config.inputPath + name + '.pug', options);
         
