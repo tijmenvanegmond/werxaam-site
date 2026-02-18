@@ -36,7 +36,8 @@
     ]
   },
   "pricing": {
-    "houtKuubPrice": 185,
+    "houtKuubPrice": 165,
+    "houtEikenKuubPrice": 185,
     "houtStapelenPrice": 20
   },
   "body":
